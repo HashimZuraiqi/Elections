@@ -1,3 +1,4 @@
+/* إعداد عام */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,31 +24,40 @@ a {
   padding: 20px 0;
 }
 
+/* شعار Better Call Zuii */
+.top-banner {
+  background-color: #000;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.logo-text {
+  font-family: 'Pacifico', cursive;
+  color: #ffd700;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* الشريط العلوي */
 header {
   background-color: #b30000;
-  padding: 20px 0;
+  padding: 10px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-header h1 {
-  text-align: center;
-  color: #ffd700;
-  font-size: 2.2rem;
-}
-
 nav {
   text-align: center;
-  margin-top: 10px;
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 10px;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
+/* قسم البطل */
 .hero {
   background: linear-gradient(to bottom right, #b30000, #000);
   padding: 60px 0;
@@ -65,6 +75,7 @@ nav a {
   margin-top: 15px;
 }
 
+/* الأقسام */
 .section {
   padding: 50px 0;
   background-color: #222;
@@ -102,6 +113,7 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* تذييل */
 footer {
   background-color: #b30000;
   color: #fff;
@@ -110,6 +122,7 @@ footer {
   font-size: 0.9rem;
 }
 
+/* استجابة الهاتف */
 @media (max-width: 768px) {
   nav a {
     display: block;
@@ -118,5 +131,9 @@ footer {
 
   .hero h2 {
     font-size: 1.5rem;
+  }
+
+  .logo-text {
+    font-size: 2rem;
   }
 }
