@@ -159,14 +159,8 @@ footer {
 /* استجابة الهاتف */
 @media (max-width: 768px) {
   nav {
-    background-color: #a00000;
     padding: 10px;
     border-radius: 10px;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
   }
 
   .hero h2 {
